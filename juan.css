@@ -1,0 +1,45 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body { background-color: white; 
+}
+
+h1 { padding: 20px 0;
+    text-align: center;
+} 
+
+.servicios { background-color: #ffffff;
+             width: 90%;
+             max-width: 1000px;
+             margin: 1.6em auto;
+             
+             display: grid;
+             gap: 1.6em;
+             grid-template-columns: repeat(5, 1fr);
+
+}
+
+.articulo {
+    background-color: #807e90;
+    padding: 20px;
+    margin-top: 5px;
+    color: #dfdfdf;
+}
+
+.windows {  width: 160px;  
+}
+.winrar { width: 160px;  
+}
+.virus { width: 160px;  
+}
+
+.articulo {
+    grid-column: 1/6;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
